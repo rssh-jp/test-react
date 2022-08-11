@@ -15,6 +15,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
     "@chakra-ui/icons": "^2.0.6",
     "@chakra-ui/react": "^2.2.4",
     "@chakra-ui/theme": "^2.1.3",
