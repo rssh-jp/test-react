@@ -2,6 +2,7 @@ import { gql, useQuery } from '@apollo/client'
 import { EmailIcon } from '@chakra-ui/icons'
 import { Button, Grid, GridItem } from '@chakra-ui/react'
 import { FC, useEffect } from 'react'
+import { ClientInstance } from '../../../libs/Apollo/apollo'
 
 type LoginProps = {}
 const QUERY = gql`
@@ -21,6 +22,10 @@ export const Login: FC<LoginProps> = ({}) => {
   useEffect(() => {
     console.log(loading, error, data)
   }, [data])
+
+  useEffect(()=>{
+    ClientInstance().query({query: QUERY, variables: {id: '2'}})
+  }, [])
   return (
     <>
       <Grid
