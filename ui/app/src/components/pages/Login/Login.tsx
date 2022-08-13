@@ -23,8 +23,8 @@ export const Login: FC<LoginProps> = ({}) => {
     console.log(loading, error, data)
   }, [data])
 
-  useEffect(()=>{
-    ClientInstance().query({query: QUERY, variables: {id: '2'}})
+  useEffect(() => {
+    ClientInstance().query({ query: QUERY, variables: { id: '2' } })
   }, [])
   return (
     <>
