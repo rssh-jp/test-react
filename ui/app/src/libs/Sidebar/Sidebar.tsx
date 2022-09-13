@@ -24,7 +24,7 @@ interface LinkItemProps {
 }
 const LinkItems: Array<LinkItemProps> = [
   { path: '/', name: 'Home', icon: FiHome },
-  { path: '/login', name: 'Trending', icon: FiTrendingUp },
+  { path: '/login?path="https://github.com/rssh-jp/test-react"', name: 'Trending', icon: FiTrendingUp },
   { path: '/b', name: 'Explore', icon: FiCompass },
   { path: '/c', name: 'Favourites', icon: FiStar },
   { path: '/d', name: 'Settings', icon: FiSettings },
