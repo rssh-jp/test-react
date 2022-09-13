@@ -5,7 +5,7 @@ import { Login } from '../components/pages/Login/Login'
 const LoginPage: NextPage = () => {
   const router = useRouter()
 
-  const {path} = router.query
+  const { path } = router.query
 
   console.log('++++++++++', path)
   return (

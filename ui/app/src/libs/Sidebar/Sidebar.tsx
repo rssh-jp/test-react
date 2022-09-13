@@ -27,7 +27,7 @@ const LinkItems: Array<LinkItemProps> = [
   { path: '/login?path="https://github.com/rssh-jp/test-react"', name: 'Trending', icon: FiTrendingUp },
   { path: '/b', name: 'Explore', icon: FiCompass },
   { path: '/c', name: 'Favourites', icon: FiStar },
-  { path: '/swagger?url="https://petstore.swagger.io/v2/swagger.json"', name: 'Settings', icon: FiSettings },
+  { path: '/swagger?url=https://petstore.swagger.io/v2/swagger.json', name: 'Settings', icon: FiSettings },
 ]
 
 export default function SimpleSidebar({ children }: { children: ReactNode }) {

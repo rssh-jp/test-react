@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ChakraProvider>
       <ApolloProvider client={client}>
         <SimpleSidebar>
-            <Component {...pageProps} />
+          <Component {...pageProps} />
         </SimpleSidebar>
       </ApolloProvider>
     </ChakraProvider>
